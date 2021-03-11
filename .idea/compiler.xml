@@ -9,6 +9,7 @@
         <module name="rpc-registry" />
         <module name="rpc-protocol" />
         <module name="rpc-provider" />
+        <module name="rpc-consumer" />
         <module name="rpc-core" />
         <module name="rpc-facade" />
       </profile>
@@ -16,6 +17,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rpc-consumer" options="-parameters" />
       <module name="rpc-core" options="-parameters" />
       <module name="rpc-facade" options="-parameters" />
       <module name="rpc-protocol" options="-parameters" />

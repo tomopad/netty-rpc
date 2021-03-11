@@ -15,6 +15,7 @@
         <module>rpc-registry</module>
         <module>rpc-provider</module>
         <module>rpc-facade</module>
+        <module>rpc-consumer</module>
     </modules>
 
     <parent>
