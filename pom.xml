@@ -13,6 +13,8 @@
         <module>rpc-core</module>
         <module>rpc-protocol</module>
         <module>rpc-registry</module>
+        <module>rpc-provider</module>
+        <module>rpc-facade</module>
     </modules>
 
     <parent>
@@ -26,6 +28,21 @@
             <dependency>
                 <groupId>org.mini.rpc</groupId>
                 <artifactId>rpc-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mini.rpc</groupId>
+                <artifactId>rpc-protocol</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mini.rpc</groupId>
+                <artifactId>rpc-facade</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mini.rpc</groupId>
+                <artifactId>rpc-registry</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
